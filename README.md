@@ -15,7 +15,7 @@
 
 # Buck Converter Model
  
- ![Alt text](./images/UB3V-Buck-FULLTOP)
+ ![Alt text](./images/UB3V-Buck-FULLTOP.png)
  
  - Uses a Buck convertor to step down the 5v to 3.3v
  - Bit more involved to construct
@@ -26,7 +26,7 @@
 
 # Classic Style Model
  
- ![Alt text](./images/UB3V-Classic-FULLTOP)
+ ![Alt text](./images/UB3V-Classic-FULLTOP.png)
  
  - Needs a roughly 25 ohm resistor to step down the 5v to 3.3v 
  - Easy assembly
