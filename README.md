@@ -33,7 +33,7 @@
 
  - 3-4x M1.6 Screw [McMaster](https://www.mcmaster.com/90910A901/)
  
- - 1x 3v cellphone motor [Amazon](https://a.co/d/5HEyPMW) [AliExpress](https://www.aliexpress.us/item/3256803801626556.html?spm=a2g0o.new_account_index.0.0.415d25b9mAlV31&gatewayAdapt=glo2usa&_randl_shipto=US)
+ - 1x 3v cellphone motor [Amazon](https://a.co/d/5HEyPMW)
  
  **for Classic Bracket**
  - 1x 25ohm resister [Amazon](https://a.co/d/4aCmpb3) (just need the 22ohm)
