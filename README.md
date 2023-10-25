@@ -1,75 +1,187 @@
-# GCC-3v-Cellphone-Rumble
-3v Cellphone Rumble for the GCC and Phob GCC project.
+# **GCC-3v-Cellphone-Rumble**
 
-### An open source Bracket for the PHOB & GCC with...
- - NEW design option for 3v Buck Converter
- - Mouse click L/R compatibility 
- - Cutout for OEM and snapback mod wires
- - L-cut hole for phob 1.2.X teensy pins
- - Cell rumble mount with screw on lid
- - Open Source! Just throw me some credit on derivatives @abeartus :)
- - Shap3r editable files included!
+3v Cellphone Rumble Bracket for the GCC and Phob GCC project.
+
+![Bracket Version 8!](./images/v8/v8.png)
+
+## **An open source 3v "Cell-phone" Rumble Bracket for the PHOB & GCC with...**
+
+-   compatible with either 3v Buck Converter or \~23 ohm resistor
+-   Mouse click L/R compatibility
+-   Cutout for OEM and snapback mod wires
+-   L-cut hole for Phob 1.2.X teensy pins
+-   Cell rumble mount with screw on lid
+-   Open Source! Just throw me some credit on derivatives @abeartus :)
+-   Shap3r editable files included!
+
+## **required parts**
+
+-   3-4x M1.6 Heat inserts [McMaster](https://www.mcmaster.com/92120A150/)
+
+-   3-4x M1.6 Screw [McMaster](https://www.mcmaster.com/90910A901/)
+
+-   1x 3v cellphone motor [Amazon](https://a.co/d/5HEyPMW) [AliExpress](https://www.aliexpress.us/item/3256803801626556.html?spm=a2g0o.new_account_index.0.0.415d25b9mAlV31&gatewayAdapt=glo2usa&_randl_shipto=US)
+
+*Pick one of the two methods for stepping down the controllers 5v out to the cell rumble's 3v*
+
+**Resistor Method**
+
+-   1x 25ohm resister [Amazon](https://a.co/d/4aCmpb3) (just need the 22ohm)
+
+-   1x small 3:1 Heat shrink [Amazon](https://a.co/d/0B9l2j5)
  
-## Two Different Models
+**Buck Converter Bracket**
 
-### Buck Converter Model
- 
- ![Alt text](./Images/UB3V-Buck-FULLTOP.png)
- 
- - Uses a Buck convertor to step down the 5v to 3.3v
- - Bit more involved to construct
- - More consistent 3.3v 
- - Has a funny little light when it vibrates
+-   recommended : 1x 3v Buck converter not soldered [AliExpress](https://www.aliexpress.us/item/2251832865440609.html?spm=a2g0o.order_list.order_list_main.12.23001802KjRhRR&gatewayAdapt=glo2usa&_randl_shipto=US)
+-   or
+-   1x 3v Buck converter pre soldered [Amazon](https://a.co/d/hcY47oe) [AliExpress](https://www.aliexpress.us/item/3256802643066285.html?spm=a2g0o.detail.1000014.22.3128556atu7YrM&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.317745.0&scm_id=1007.40000.317745.0&scm-url=1007.40000.317745.0&pvid=9f4be090-9cd5-447a-85e5-b2ded161dbb8&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.317745.0,pvid:9f4be090-9cd5-447a-85e5-b2ded161dbb8,tpp_buckets:668%232846%238110%23324&pdp_ext_f=%7B%22sku_id%22%3A%2212000030781473442%22%2C%22sceneId%22%3A%2230050%22%7D&pdp_npi=2%40dis%21USD%210.01%210.01%21%21%21%21%21%402101f6b716734767897904494edef0%2112000030781473442%21rec)
 
-### Classic Style Model
- 
- ![Alt text](./Images/UB3V-Classic-FULLTOP.png)
- 
- - Needs a roughly 25 ohm resistor to step down the 5v to 3.3v 
- - slightly simpler assembly
- 
-## required parts
- - 3-4x M1.6 Heat inserts [McMaster](https://www.mcmaster.com/92120A150/)
+## **Guide**
 
- - 3-4x M1.6 Screw [McMaster](https://www.mcmaster.com/90910A901/)
- 
- - 1x 3v cellphone motor [Amazon](https://a.co/d/5HEyPMW)
- 
- **for Classic Bracket**
- - 1x 25ohm resister [Amazon](https://a.co/d/4aCmpb3) (just need the 22ohm)
- - 1x small 2:2 or 3:1 Heat shrink [Amazon](https://a.co/d/0B9l2j5)
+### **1. Get a copy of the Bracket and Lid printed**
 
- **for Buck Converter Bracket**
- 
- - recommended : 1x 3v Buck converter not soldered [AliExpress](https://www.aliexpress.us/item/2251832865440609.html?spm=a2g0o.order_list.order_list_main.12.23001802KjRhRR&gatewayAdapt=glo2usa&_randl_shipto=US)
-   - or
- - 1x 3v Buck converter pre soldered [Amazon](https://a.co/d/hcY47oe) [AliExpress](https://www.aliexpress.us/item/3256802643066285.html?spm=a2g0o.detail.1000014.22.3128556atu7YrM&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40000.317745.0&scm_id=1007.40000.317745.0&scm-url=1007.40000.317745.0&pvid=9f4be090-9cd5-447a-85e5-b2ded161dbb8&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40000.317745.0,pvid:9f4be090-9cd5-447a-85e5-b2ded161dbb8,tpp_buckets:668%232846%238110%23324&pdp_ext_f=%7B%22sku_id%22%3A%2212000030781473442%22%2C%22sceneId%22%3A%2230050%22%7D&pdp_npi=2%40dis%21USD%210.01%210.01%21%21%21%21%21%402101f6b716734767897904494edef0%2112000030781473442%21rec) 
+-   I usually print in PLA+, However regular pla, and rigid resins should work for the bracket
 
-## guide
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/p.jpeg" alt="Alt Text" width="450" height="200"/>
+    :::
 
- 1. Get the bracket 
-    - print the bracket and lid(s) ideally with PLA+ 
- - *OR*
-    - order a set from JLCpcb (STL's in the JLCpcb STLs file)
+-   If printing on your own home machine with Cura I recommend doing support blocking around the L-cut on the bottom for the Phob 1's Teensy pins.
 
- 2. Heat insert the inserts :)
-    - push in the heat inset screw inserts into the board with a soldering iron on the lowest temperature
+    1.  Select the bracket in Cura
 
- 3. Stepping down the motor from 5v to 3v
-    - **Classic Bracket**) attach a ~25 ohm (22ohm is suffiecient) resistor to the positive motor lead. Cut the motor lead short and solder the wire and resistor together keeping the full length of the resistor. Cut heat shrink and resistor to size leaving a little bare metal at the end.
- - *OR*
-    - **Buck module Bracket**) trim motor's wire leads then connect the buck converter to 3v and ground wires of the motor ( I save the extra wire for the rest of the connections) If you purchased the presoldered buck converters I recommended you desolder the pins and solder the wire like you would with a GCC trigger paddle. or you could fasion a PC style connector but it might be a tight fit.
+        ::: {style="text-align:left;"}
+        <img src="./images/v8/sb1.png" alt="Alt Text" width="600" height="300"/>
+        :::
 
- 4. Final bracket assembly
-     - put the motor (and Buck converter if you choose that model) in the housing and screw on the lid(s)
+    2.  Put the support blocking around the L-Cut channel
 
- 5. Connecting to the controller PCB
-    - **Classic Bracket**) attach the positive lead with the resitor, and ground line to the pcb's rumble out 5v/ground pads
-- *OR*
-    - **Buck Module Bracket**) connect the 5v and ground wires on the buck converter to the pcb's rumble out 5v/ground pads
+        ::: {style="text-align:left;"}
+        <img src="./images/v8/sb2.png" alt="Alt Text" width="650" height="400"/>
+        :::
 
- 6. Final assembly
-    - push in the trigger paddles, then put the bracket in place on the pcb over the trigger potentiomets. Then screw the bracket to the PCB. Done!
+### **2. Prep the cellphone motor**
 
- 
- + similar guide by fires on [his bracket](https://firescc.com/mod-guides#/rumble-bracket), mine is similar, so credit to fires 
+**!!** *Use one of the two methods to step down the 5v to 3v* **!!**
+
+#### **Resistor**
+
+  1.  Cut the motor lead short
+
+      ::: {style="text-align:left;"}
+      <img src="./images/v8/2RES1.jpeg" alt="Alt Text" width="450" height="200"/>
+      :::
+
+  2.  splice in the \~23 ohm resistor
+
+      ::: {style="text-align:left;"}
+      <img src="./images/v8/2RES2.jpeg" alt="Alt Text" width="300" height="200"/>
+      :::
+
+  3.  Heat shrink over the connections/resistor
+
+      ::: {style="text-align:left;"}
+      <img src="./images/v8/2RES3.jpeg" alt="Alt Text" width="350" height="200"/>
+      :::
+
+#### **Buck Converter**
+
+::: {style="text-align:left;"}
+<img src="./images/v8/BUCK.jpeg" alt="Alt Text" width="450" height="200"/>
+:::
+
+  1.  Cut the motor leads short, I recycle the remaining wire for the other two connections *(you will need to buy the longer wire motor for this though)*
+
+      ::: {style="text-align:left;"}
+      <img src="./images/v8/BUCKp.jpeg" alt="Alt Text" width="400" height="400"/>
+      :::
+
+  2.  Solder the motor positive to the Buck Converter's **v**<sub>0 *(voltage out)*
+
+  3.  Solder the motor negative, and another negative wire to the buck converter's **GND**
+
+  4.  Solder a positive wire onto the Buck Converters **V**<sub>i *(Volatage in)*
+
+      ::: {style="text-align:left;"}
+      <img src="./images/v8/BUCKc.jpeg" alt="Alt Text" width="360" height="400"/>
+      :::
+
+  5.  Try to keep the bottom of the buck converter as flush as possible if using the smaller variety
+
+      ::: {style="text-align:left;"}
+      <img src="./images/v8/flu.jpeg" alt="Alt Text" width="200" height="200"/>
+      :::
+
+### **3. Insert the motor into the bracket**
+
+::: {style="text-align:left;"}
+<img src="./images/v8/3.jpeg" alt="Alt Text" width="350" height="200"/>
+:::
+
+-   Extra step if using a buck converter
+
+    1.  Glue the buck converter into the dugout to the right of the rumble housing. (I would recommend using some hot glue to hold it into place, super glue tends to ruin the buck converter for some reason when I use it)
+
+### **4. Insert the Threaded Heat Inserts**
+
+-   Using a soldering iron at around 200c or as low as possible with a small tip that can slot into the insert. push the three inserts into the Bracket.
+
+-   The inserts should be pushed in on whatever side it will be screwed in from. So one pushed in from the top, and two on bottom. The proper side has a fillet around the slot that will make the insert easier to place at first.
+
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/4-1.jpg" alt="Alt Text" width="500" height="400"/>
+    :::
+
+-   Personally I will set the insert into the brackets slot, then carefully push the insert in trying to be as perpendicular with the bracket as I can.
+
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/4-2.jpeg" alt="Alt Text" width="350" height="200"/>
+    :::
+
+-   the bottom ones can be tricky, I usually just flip the bracket over and put the slotted tab onto the table, then I use the method above.
+
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/5.jpeg" alt="Alt Text" width="400" height="300"/>
+    :::
+
+-   This Is what the threads should look like after insertion
+
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/inserted.png" alt="Alt Text" width="700" height="300"/>
+    :::
+
+### **5. Attach the lid motor's lid to the Bracket**
+
+1.  (semi-optional) I would recommend using some hot glue to help dampen any rattle from the lid and motor, and protect the short motor connection to the resistor.
+
+    -   This is how I apply hot glue
+
+    1.  *(only for my method of splicing in the resistor)* Put a small amount of glue here just to protect the wire from yanking and damaging the resistor splice and motor connection
+    2.  *(optional)* Apply a light amount of hot glue here, then while the glue is hot press the rumble motor housing lid into place
+
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/4-2fin9.jpeg" alt="Alt Text" width="450" height="400"/>
+    :::
+
+2.  Screw the lid into place with one of the three m1.6 screws
+
+    ::: {style="text-align:left;"}
+    <img src="./images/v8/done.jpeg" alt="Alt Text" width="600" height="200"/>
+    :::
+
+### **6. Solder the Bracket onto the board**
+
+... just like oem ...
+
+### **7. Attach the Bracket onto the board**
+
+I clip the top wings over the L\R sliders then pull the bottom over and onto the pcb
+
+### **8. Screw the bracket into place with the remaining two screws**
+
+Screw it :))
+
+## **Credit**
+
+-   similar guide by fires on [his bracket](https://firescc.com/mod-guides#/rumble-bracket), mine is similar, so credit to fires
+
