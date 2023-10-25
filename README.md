@@ -122,7 +122,7 @@
 -   Personally I will set the insert into the brackets slot, then carefully push the insert in trying to be as perpendicular with the bracket as I can.
 
    
-    ![](./images/v8/4-1.jpg)
+    ![](./images/v8/4-2.png)
    
 
 -   the bottom ones can be tricky, I usually just flip the bracket over and put the slotted tab onto the table, then I use the method above.
