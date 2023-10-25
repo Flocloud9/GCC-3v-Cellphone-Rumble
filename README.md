@@ -42,17 +42,17 @@
 
 -   I usually print in PLA+, However regular pla, and rigid resins should work for the bracket
 
-    ![](./images/v8/p.jpeg){width=450 height=200}
+    ![](./images/v8/p.png)
 
 -   If printing on your own home machine with Cura I recommend doing support blocking around the L-cut on the bottom for the Phob 1's Teensy pins.
 
     1.  Select the bracket in Cura
 
-        ![](./images/v8/sb1.png){width=600 height=300}
+        ![](./images/v8/sb1.png)
 
     2.  Put the support blocking around the L-Cut channel
 
-        ![](./images/v8/sb2.png){width=650 height=400}
+        ![](./images/v8/sb2.png)
 
 ### **2. Prep the cellphone motor**
 
@@ -62,27 +62,27 @@
 
   1.  Cut the motor lead short
 
-      ![](./images/v8/2RES1.jpeg){width=450 height=200}
+      ![](./images/v8/2RES1.png)
 
   2.  splice in the \~23 ohm resistor
 
-      ![](./images/v8/2RES2.jpeg){width=300 height=200}
+      ![](./images/v8/2RES2.png)
 
 
   3.  Heat shrink over the connections/resistor
 
-      ![](./images/v8/2RES3.jpeg){width=350 height=200}
+      ![](./images/v8/2RES3.png)
  
 
 #### **Buck Converter**
 
 
-![](./images/v8/BUCK.jpeg){width=450 height=200}
+![](./images/v8/BUCK.png)
 
 
   1.  Cut the motor leads short, I recycle the remaining wire for the other two connections *(you will need to buy the longer wire motor for this though)*
 
-      ![](./images/v8/BUCKp.jpeg){width=400 height=400}
+      ![](./images/v8/BUCKp.png)
 
   2.  Solder the motor positive to the Buck Converter's **v**<sub>0 *(voltage out)*
 
@@ -91,18 +91,18 @@
   4.  Solder a positive wire onto the Buck Converters **V**<sub>i *(Volatage in)*
 
       
-      ![](./images/v8/BUCKc.jpeg){width=360 height=400}
+      ![](./images/v8/BUCKc.png)
     
 
   5.  Try to keep the bottom of the buck converter as flush as possible if using the smaller variety
 
       
-      ![](./images/v8/flu.jpeg){width=200 height=200}
+      ![](./images/v8/flu.png)
 
 ### **3. Insert the motor into the bracket**
 
 
-![](./images/v8/3.jpeg){width=350 height=200}
+![](./images/v8/3.png)
 
 
 -   Extra step if using a buck converter
@@ -116,25 +116,25 @@
 -   The inserts should be pushed in on whatever side it will be screwed in from. So one pushed in from the top, and two on bottom. The proper side has a fillet around the slot that will make the insert easier to place at first.
 
     
-    ![](./images/v8/4-1.jpg){width=500 height=400}
+    ![](./images/v8/4-1.jpg)
   
 
 -   Personally I will set the insert into the brackets slot, then carefully push the insert in trying to be as perpendicular with the bracket as I can.
 
    
-    ![](./images/v8/4-1.jpg){width=500 height=400}
+    ![](./images/v8/4-1.jpg)
    
 
 -   the bottom ones can be tricky, I usually just flip the bracket over and put the slotted tab onto the table, then I use the method above.
 
     
-    ![](./images/v8/5.jpeg){width=400 height=300}
+    ![](./images/v8/5.png)
 
 
 -   This Is what the threads should look like after insertion
 
    
-    ![](./images/v8/inserted.png){width=700 height=300}
+    ![](./images/v8/inserted.png)
 
 
 ### **5. Attach the lid motor's lid to the Bracket**
@@ -147,13 +147,13 @@
     2.  *(optional)* Apply a light amount of hot glue here, then while the glue is hot press the rumble motor housing lid into place
 
 
-    ![](./images/v8/4-2fin9.jpeg){width=450 height=400}
+    ![](./images/v8/4-2fin9.png)
 
 
 2.  Screw the lid into place with one of the three m1.6 screws
 
 
-    ![](./images/v8/done.jpeg){width=600 height=200}
+    ![](./images/v8/done.png)
     
 
 ### **6. Solder the Bracket onto the board**
